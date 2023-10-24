@@ -141,8 +141,8 @@ import java.util.Scanner;
                 System.out.printf("UVI:\t\t\t \u001B[1;33;40m", UVI);
                 System.out.printf("%d", UVI);
                 System.out.printf("\u001b[0m");
-            }else if(UVI >= 8 && UVI < 10){
-                System.out.printf("UVI:\t\t\t \u001B[1;31;40m", UVI); //Se mostrara de color rojo
+            }else if(UVI >= 8 && UVI < 10){ //Se mostrara de color rojo
+                System.out.printf("UVI:\t\t\t \u001B[1;31;40m", UVI); 
                 System.out.printf("%d", UVI);
                 System.out.printf("\u001b[0m");
             }else if(UVI >= 10){ //Se mostrara en color magenta
